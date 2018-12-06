@@ -524,6 +524,7 @@ cd ~/torch
 export TORCH_NVCC_FLAGS="-D__CUDA_NO_HALF_OPERATORS__"
 ./install.sh -b
 source ~/.bashrc
+./test.sh
 ```
 
 Aşağıdaki kurulumları da tamamladıktan sonra **Torch** kurulumu tamamlanacaktır. 
