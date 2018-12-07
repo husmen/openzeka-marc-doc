@@ -461,6 +461,7 @@ sudo sed -i 's/# WITH_PYTHON_LAYER := 1/WITH_PYTHON_LAYER := 1/' Makefile.config
 Devam etmeden önce "config" dosyasına Jetson TX2'ye ait mimari kodlarının da eklenmesi gerekmektedir. `Makefile.config` dosyasını çift tıklayarak açın.
 **CUDA_ARCH** değişkenini dosya içerisinde bulunuz. `compute_62` ve `sm_62` satırları (aşağıdaki son iki satır) varsayılan olarak bulunmuyor olabilir. Eğer yoksa bu dosyaya onları eklediğinizden emin olun. 
 CUDA>= 9.0 için, maximam uyumluluk için * _20 ve * _21 satırlarını yorumlayın.
+Jetson TX1 desteklemek için, `compute_53` ve `sm_53` de ekleyin.
 
 **Makefile.config** dosyası içerisinde bulunan **CUDA_ARCH** değişkeninin aşağıdaki ile aynı olduğundan emin olun ve dosyayı kaydederek kapatın. 
 
